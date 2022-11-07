@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         button = findViewById(R.id.btn);
+
         button.setOnClickListener { PnrAlertDialog().alert(this@MainActivity) }
     }
 
