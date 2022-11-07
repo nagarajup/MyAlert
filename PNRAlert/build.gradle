@@ -49,7 +49,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.pnr.pnralert'
             artifactId = 'pnralert'
-            version = '1.3'
+            version = '1.4'
         }
     }
 }
