@@ -48,9 +48,8 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'com.pnr.pnralert'
-            artifactId = 'PnrAlertDialog'
+            artifactId = 'pnralert'
             version = '1.3'
-
         }
     }
 }
